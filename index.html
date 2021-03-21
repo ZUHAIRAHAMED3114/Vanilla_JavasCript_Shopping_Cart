@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8ca4f88d6a.js" crossorigin="anonymous"></script>
+
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/styles.css">
+
+</head>
+
+<body>
+    <!-- start of the nav bar-->
+    <div class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                 <i class="fas fa-bars"></i> 
+                 <img src="./images/logo.svg" alt="store logo">
+             </span>
+
+        </div>
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">1</div>
+        </div>
+    </div>
+    <!-- end of the nav bar-->
+    <!-- hero start -->
+
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">
+                Furniture Collection
+            </h1>
+            <button class="banner-btn"> shop now </button>
+
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="section-title">
+            <h2> our products</h2>
+        </div>
+
+        <div class="product-center">
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt=" product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart">
+                            add to bag
+                        </i>
+                    </button>
+
+                </div>
+
+                <h3> queen bed</h3>
+                <h4> $ 16</h4>
+            </article>
+        </div>
+    </section>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                 <i class="fas fa-window-close">  </i>
+            </span>
+            <h2> your cart </h2>
+
+            <!-- for this container we will add the number of items which are required-->
+            <div class="cart-content">
+                <!-- start of the cart items-->
+
+                <div class="cart-item">
+                    <!-- here we are adding the list  of the cart items-->
+
+                </div>
+
+                <!-- end of the cart items-->
+            </div>
+
+            <div class="cart-footer">
+                <h3> Your total :$ <span class="cart-total"> 
+                    0
+                </span></h3>
+                <button class="clear-cart banner-btn">
+                     clear cart
+                </button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!--end of the cart -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
